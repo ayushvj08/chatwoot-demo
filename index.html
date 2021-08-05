@@ -29,6 +29,15 @@
       </div>
       <div class="script">
         <script>
+          window.chatwootSettings = {
+            type: "expanded_bubble",
+            launcherTitle: "Chat with us",
+          };
+
+          window.addEventListener("chatwoot:ready", function () {
+            // window.$chatwoot.toggle();
+            // window.$chatwoot.reset();
+          });
           (function (d, t) {
             var BASE_URL = "https://ayush-chatwoot.herokuapp.com";
             var g = d.createElement(t),
