@@ -1,4 +1,5 @@
 body {
+  font-family: cursive;
   background-color: #eaeaea;
 }
 main {
@@ -7,4 +8,36 @@ main {
 h2 {
   margin-top: 30px;
   font-size: 32px;
+}
+.CenterImage-container {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CenterImage {
+  width: 90%;
+}
+.creator {
+  display: flex;
+  justify-content: center;
+}
+div {
+  display: inline-block;
+}
+p {
+  font-size: 1.4rem;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  bottom: 35px;
+}
+a {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  h2 {
+    padding: 0 10px;
+    font-size: 24px;
+  }
 }
