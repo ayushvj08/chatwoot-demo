@@ -33,7 +33,11 @@ p {
   bottom: 35px;
 }
 a {
+  color: red;
   text-decoration: none;
+}
+p:hover {
+  transform: scale(1.2);
 }
 @media screen and (max-width: 768px) {
   h2 {
